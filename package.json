@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rainbow911/gitPageBook.git"
+    "url": "http://rainbow911.github.io/gitPageBook"
   },
   "author": "ryan",
   "license": "ISC",
