@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node_modules/.bin/gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/rainbow911/gitPageBook/issues"
   },
-  "homepage": "https://github.com/rainbow911/gitPageBook#readme"
+  "homepage": "https://github.com/rainbow911/gitPageBook#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4"
+  }
 }
